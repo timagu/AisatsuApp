@@ -1,11 +1,8 @@
 package jp.techacademy.yamazawa.kouta.aisatsuapp;
 
-import android.content.DialogInterface;
 import android.app.TimePickerDialog;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import  android.widget.TextView;
@@ -24,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button button1 = (Button) findViewById(R.id.button1);
         button1.setOnClickListener(this);
 
-        mTextView = (TextView) findViewById(R.id.textView);
+        mTextView = (TextView) findViewById(R.id.textView);   //UI部品(textView)を取得
     }
 
     @Override
